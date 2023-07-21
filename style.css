@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-image{
+    background-image: url("https://www.hdwallpapers.in/download/hills_4k_5k-3840x2160.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.navbar{
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0);
+    height: 5rem;
+}
+.first{
+    color: rgb(255, 154, 3);
+}
+.second{
+    font-size: 1rem;
+}
+.heading{
+    text-align: center;
+    float: right;
+    right: 20rem;
+    top:10rem;
+    flex-wrap: wrap;
+    margin-right: -10rem;
+    
+    
+}
+.f{
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-size: 4rem;
+    flex-wrap: wrap;
+}
+.s{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 3.5rem;
+
+}
+.a{
+    background-color: rgb(1, 110, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 10rem;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.aa{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.honey{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.honey a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 15px;
+    
+}
+.boat{
+    display: flex;
+    background-color: rgb(202, 201, 201);
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    position: relative;
+
+}
+.div1{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-h1{
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 10rem;
+    color: white;
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0); 
+}
+.more{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.sub{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+.mbed{
+    width: 45%;
+}
+.row img{
+    width: 100%;
+}
+.aaaa{
+    width: 40%;
+}
+.rowsss{
+    height: 200px;
+}
+.row col-lg-3{
+    height: 300px;
+}
+.pre h6{
+    font-family: 'Pacifico', cursive;
+    color: red;
+
+}
+.carddd{
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.carddd a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.carddd img{
+    width: 100%;
+}
+.checked {
+    color: rgb(0, 255, 191);
+  }
+  .card1{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+  }
+  .card1:hover{
+    box-shadow: 10px 5px ;
+  }
+  .honey a:hover{
+    background-color: orangered;
+    color: white;
+  }
+  .punjab{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background-color:beige;
+    border-radius: 20px;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+  }
+  .punjab button{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+  }
+  .card2:hover .punjab{
+    visibility: visible;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
